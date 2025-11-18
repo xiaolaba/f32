@@ -74,6 +74,12 @@ Steps to building one:
  - Send the gerber file `f32_gerber.zip` found in the `hardware` folder to PCBWay with the specs mentioned above.
  - Order the components noted in `f32_bom.pdf`. These parts can be found on both DigiKey and Mouser.
     - <i>** Tip: Always order more than you need, especially with components as small as these.</i>
+    
+<div align="center">
+    <img src="images/resistor.jpg" alt="f32" width="300"/>
+    <br> 01005 Resistor
+</div><br>
+
  - Clean the pcb really well with 99% Alcohol.
  - Starting with the top side (Antenna side) apply a thin layer of soldering flux across the entire board using a tooth pick.
  - Using a soldering iron with a fine tip apply some solder to the tip and then go across all the exposed pads. 
