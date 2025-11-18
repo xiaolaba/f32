@@ -4,10 +4,13 @@
 </p>
 
 The <b>f32</b> is an ultra-compact ESP32 development board designed to mount directly behind a USB-C receptacle. The PCB measures just 9.85 mm x 8.45 mm. It's powered by the ESP32-C3FH4 microcontroller and was created primarily for research and as a bit of a stress test for the ESP32, since it intentionally ignores many standard design guidelines. There's only one exposed GPIO and it is connected to an onboard LED, so most of the development on here would be more catered for wifi/web.<br>
+
 <div align="center">
   <img src="images/f32_2.jpg" alt="cover" width="300px"/>
 </div>
-To test the f32 an example application was created that users can interact with. The application turns the f32 into a captive portal so when the it's is powered on it will show up as an open access point that the user can select from available WiFi networks. The user is then automatically sent to the f32's control page where they can interact with some of its basic functionality such as turning on an LED or scanning for surrounding WiFi networks. There's also an "About" page that provides a small overview of the device. Below are some screenshots of interacting with the device.
+
+To test the f32 an example application was created that users can interact with. The application turns the f32 into a captive portal so when the it's is powered on it will show up as an open access point that the user can select from available WiFi networks. The user is then automatically sent to the f32's control page where they can interact with some of its basic functionality such as turning on an LED or scanning for surrounding WiFi networks. There's also an "About" page that provides a small overview of the device. Below are some screenshots and a gif of interacting with the device.
+
 <div align="center">
     <table>
         <tr>
@@ -31,7 +34,12 @@ To test the f32 an example application was created that users can interact with.
             </td>
         </tr>
     </table>
-</div>
+</div><br>
+
+<div align="center">
+    <img src="images/f32.gif" alt="f32" width="250"/>
+    <br> GIF of f32 in action.
+</div><br>
 
 Initially the f32 didn't seem to want to work. I couldn't get it to connect to any networks or broadcast it's own network. Im 100% sure this is due to the poor antenna circuitry or lack of, but I did manage to get it functional after adding an additional tiny antenna onto the chip antenna as seen in the picture below. This was just a piece of bent wire soldered to the end lead and floating above the first lead.
 
