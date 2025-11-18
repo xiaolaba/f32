@@ -1,19 +1,7 @@
-<div align="center">
-    <table>
-        <tr>
-            <td>
-                <div align="center">
-                    <img src="images/f32_logo.png" alt="Logo" width="300"/>
-                </div>
-            </td>
-            <td>
-                <div align="center">
-                    <img src="images/f32_r2.png" alt="Render" width="300"/>
-                </div>
-            </td>
-        </tr>
-    </table>
-</div>
+<p align="center">
+    <img src="images/f32_logo.png" alt="Logo" width="300"/>
+    <img src="images/f32_r2.png" alt="Render" width="300"/>
+</p>
 
 The <b>f32</b> is an ultra-compact ESP32 development board designed to mount directly behind a USB-C receptacle. The PCB measures just 9.85 mm x 8.45 mm. It's powered by the ESP32-C3FH4 microcontroller and was created primarily for research and as a bit of a stress test for the ESP32, since it intentionally ignores many standard design guidelines. There's only one exposed GPIO and it is connected to an onboard LED, so most of the development on here would be more catered for wifi/web.<br>
 <div align="center">
@@ -33,7 +21,7 @@ Below are some screenshots of interacting with the device.
             <td>
                 <div align="center">
                     <img src="images/web_2.png" alt="WiFi Search Results" width="300"/>
-                    <br> WiFi list after a search and LED toggled on.
+                    <br> WiFi search and LED toggled on.
                 </div>
             </td>
             <td>
