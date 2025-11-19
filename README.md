@@ -55,7 +55,8 @@ Since I don't have fancy signal testing equipment I relied on some manual testin
 
 ## Building the f32
 <img src="images/pcb.jpg" align="right" alt="PCB" width="200"/>
-The PCB was designed using DipTrace and manufactured by [PCBWay](https://www.pcbway.com/) with a board thickness of 0.6mm, min hole size of 0.2mm, and min track/spacing of 4/4mil. At the time of making this it only cost $10.75 for 5 boards shipped! That still blows my mind. PCBWay does also offer assembly services, but I chose to assemble this at home and suffer a bit. This took a bit of trial and error with such small parts, but I decided the best way for me was to ditch the stencil and make flux my best friend.
+
+The PCB was designed using DipTrace and manufactured by [PCBWay](https://www.pcbway.com) with a board thickness of 0.6mm, min hole size of 0.2mm, and min track/spacing of 4/4mil. At the time of making this it only cost $10.75 for 5 boards shipped! That still blows my mind. PCBWay does also offer assembly services, but I chose to assemble this at home and suffer a bit. This took a bit of trial and error with such small parts, but I decided the best way for me was to ditch the stencil and make flux my best friend.
 <br><br>
 
 Tools & parts used:
@@ -72,7 +73,7 @@ Tools & parts used:
 Steps to building one:
 
  - Send the gerber file `f32_gerber.zip` found in the `hardware` folder to PCBWay with the specs mentioned above.
- - Order the components noted in `f32_bom.pdf`. These parts can be found on both DigiKey and Mouser.
+ - Order the components noted in `f32_bom.pdf`. These parts can be found on both DigiKey and Mouser except the antenna. I don't remember where I had originally ordered them, but I believe they are CrossAir CA-C03.
     - <i>** Tip: Always order more than you need, especially with components as small as these.</i>
     
 <div align="center">
