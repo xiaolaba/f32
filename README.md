@@ -1,9 +1,9 @@
 ### testing by xiaolaba, ESP32-c3 super-mini used
-GPIO-10, LED output, it works.
-no source code for ESP32, only firmaware files.
-[burn.bat](burn.bat) is script for firmware upload.
-[esptool_5.1.0.exe](esptool_5.1.0.exe) is tool for upload by ESP.
-![GPIO-10_on-off.JPG](GPIO-10_on-off.JPG)  
+GPIO-10, LED output, it works.  
+no source code for ESP32, only firmaware files.  
+[burn.bat](burn.bat) is script for firmware upload.  
+[esptool_5.1.0.exe](esptool_5.1.0.exe) is tool for upload by ESP.  
+![GPIO-10_on-off.JPG](GPIO-10_on-off.JPG)    
 
 
 ### --- original repo and content below.
